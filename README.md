@@ -24,7 +24,7 @@ A few other SRE books/reports are available as directly from Google or publisher
 
 You might also like:
 
-- [Software Engineering at Google](https://abseil.io/resources/swe-book) [[PDF](https://github.com/abseil/abseil.github.io/raw/cd13b21daa6ec74155548241241693198c1b1264/resources/swe_at_google.2.pdf)] [[PDF-Archive](https://archive.softwareheritage.org/browse/content/sha1_git:80ee550c6bda571d4e9f56fc093243d31a90b651/raw/?filename=swe_at_google.2.pdf)] [[Read Online](https://abseil.io/resources/swe-book/html/toc.html)] [[O’Reilly](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/)] [[Amazon](https://www.amazon.com/_/dp/1492082791)] [[Ebooks.com](https://www.ebooks.com/en-in/book/detail/209970024/)]
+- [Software Engineering at Google](https://abseil.io/resources/swe-book) [[PDF](https://github.com/abseil/abseil.github.io/raw/cd13b21daa6ec74155548241241693198c1b1264/resources/swe_at_google.2.pdf)] [[PDF-Archive](https://archive.softwareheritage.org/browse/content/sha1_git:80ee550c6bda571d4e9f56fc093243d31a90b651/raw/?filename=swe_at_google.2.pdf)] [[Read Online](https://abseil.io/resources/swe-book/html/toc.html)] [[O’Reilly](https://www.oreilly.com/library/view/software-engineering-at/9781492082781/)] [[Amazon](https://www.amazon.com/_/dp/1492082791)] [[Ebooks.com](https://www.ebooks.com/en-in/book/detail/209970024/)] [Generated EPUB/PDF](https://github.com/captn3m0/google-swe-ebook/)
 
 # Build
 
