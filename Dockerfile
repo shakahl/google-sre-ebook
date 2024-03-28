@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:bookworm-slim
 
 LABEL maintainer="github.google-sre-ebook@captnemo.in"
 
@@ -18,8 +18,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     texlive-xetex \
     wget \
     zlib1g-dev \
-    && gem install bundler --no-ri --no-rdoc \
-    && gem update --system \
+    && gem install bundler --no-document \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
