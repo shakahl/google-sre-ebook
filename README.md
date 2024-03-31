@@ -19,7 +19,7 @@ A few other SRE books/reports are available as directly from Google or publisher
 - [Creating a Production Launch Plan](https://sre.google/resources/practices-and-processes/production-launch-planning/) - [[PDF](https://googlesre.page.link/plpgh)]  [[EPUB](https://web.archive.org/web/20210702003102/https://sre.google/static/pdf/cplp-epub.zip)]  [[MOBI](https://web.archive.org/web/20210102115046/https://sre.google/static/pdf/cplp-mobi.zip)]
 - [Case Studies in Infrastructure Change Management](https://get.oreilly.com/ind_case-studies-in-infrastructure-change-management.html) - [[PDF](https://web.archive.org/web/20210702035412/https://static.googleusercontent.com/media/sre.google/en//static/pdf/case-studies-infrastructure-change-management.pdf)]
 - [A Case Study in Community-Driven Software Adoption](https://www.oreilly.com/library/view/a-case-study/9781098114596/) - [[PDF](https://web.archive.org/web/20210702035416/https://static.googleusercontent.com/media/sre.google/en//static/pdf/community-driven-software-adoption.pdf)]  [[EPUB](https://web.archive.org/web/20210702003151/https://sre.google/static/pdf/community-driven-software-adoption-epub.zip)]  [[MOBI](https://web.archive.org/web/20210702003132/https://sre.google/static/pdf/community-driven-software-adoption-mobi.zip)]
-- [Incident Metrics in SRE](https://sre.google/resources/practices-and-processes/incident-metrics-in-sre/) - [[PDF🔻](https://sre.google/static/pdf/incident_metrics_in_sre.pdf)]  [[EPUB🔻](https://sre.google/static/pdf/incident_metrics_in_sre.epub)]
+- [Incident Metrics in SRE](https://sre.google/resources/practices-and-processes/incident-metrics-in-sre/) - [[PDF](https://static.googleusercontent.com/media/sre.google/en//static/pdf/IncidentMeticsInSre.pdf)]  [[EPUB](https://static.googleusercontent.com/media/sre.google/en//static/pdf/IncidentMeticsInSre.epub)]
 - [Engineering Reliable Mobile Applications](https://www.oreilly.com/library/view/engineering-reliable-mobile/9781492057444/) - [[PDF](https://web.archive.org/web/20211011151056/https://static.googleusercontent.com/media/sre.google/en//static/pdf/engineering-reliable-mobile-applications.pdf)]  [[EPUB](https://web.archive.org/web/20210702082730if_/https://sre.google/static/pdf/engineering-reliable-mobile-applications-epub.zip)]  [[MOBI 🔻](https://sre.google/static/pdf/engineering-reliable-mobile-applications-mobi.zip)]
 
 You might also like:
@@ -53,10 +53,10 @@ $ docker run --rm --volume "$(pwd):/output" -e BOOK_SLUG='srw_book' captn3m0/goo
 ```
 $ mkdir /tmp/sreoutput
 $ chcon -Rt svirt_sandbox_file_t /tmp/sreoutput
-$ docker run --rm --volume "/tmp/sreoutput:/output" -e BOOK_SLUG='srw_book' captn3m0/google-sre-ebook:latest
+$ docker run --rm --volume "/tmp/sreoutput:/output" -e BOOK_SLUG='srw_book' ghcr.io/captn3m0/google-sre-ebook:ruby
 ```
 
-The build for the above Docker image can be audited at <https://hub.docker.com/repository/docker/captn3m0/google-sre-ebook/builds>.
+Builds on [Docker Hub](https://hub.docker.com/r/captn3m0/google-sre-ebook) are no longer maintained.
 
 ## macOS / Linux
 
